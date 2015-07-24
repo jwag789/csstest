@@ -1,0 +1,181 @@
+$purp: #7e336c;
+$grey: #444444;
+$light: #CCC;
+@import "font-awesome";
+
+html{
+	-webkit-font-smoothing: antialiased;
+	font-family: "Helvetica", sans-serif;
+	font-size: 16px;
+}
+
+nav {
+	background: $purp;
+	height: 40px;
+
+	a {
+		text-transform: uppercase;
+		color: #FFF;
+		text-decoration: none;
+		font-size: 0.9em;
+		margin-left: 30px;
+	}
+}
+
+.nav_links {
+	position: absolute;
+	right: 0;
+	top: 11px;
+}
+
+.column-1 {
+	width: 850px;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+}
+.column-3 {
+	width: 33.33333%;
+	float: left;
+}
+
+header {
+	img {
+		width: 100%;
+	}
+}
+
+h1 {
+	color: $purp;
+	font-size: 2.4em;
+	font-weight: lighter;
+	margin: 50px 0 65px;
+}
+
+h3 {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid $purp; 
+   line-height: 0em;
+   font-size: 0.8em;
+   font-weight: bold;
+   color: $purp;
+   margin: 10px 0 20px;
+   span { 
+	    background:#fff; 
+	    padding:0 10px; 
+	} 
+}
+
+
+
+i {
+	color: $purp;
+	border: 2px solid $purp;
+	border-radius: 120px;
+	padding: 50px;
+	margin: 30px 0;
+}
+
+article {
+	color: $grey;
+	h2 {
+		font-weight: bold;
+		font-size: 0.9em;
+	}
+	p{
+		font-size: 0.85em;
+		line-height: 1.4em;
+		margin: 10px 20px 0 20px;
+	}
+	.box {
+		border: 3px solid $light;
+		border-radius: 6px;
+		margin: 80px 20px 0 20px;
+		padding: 20px;
+		h2 {
+			margin: 20px;
+			font-size: 2.4em;
+			font-weight: normal;
+			span {
+				font-size: 0.5em;
+				font-weight: bold;
+				color: $light;
+			}
+		}
+		h4 {
+			width: 75px;
+			border-bottom: 1px solid $light;
+			padding-bottom: 1px;
+			margin: 0 auto;
+		}
+		p {
+			margin: 20px 0 40px;
+		}
+		a {
+			background: $purp;
+			color: #FFF;
+			display: block;
+			text-decoration: none;
+			margin: 0 auto;
+			padding: 6px 0;
+			border-radius: 5px;
+			border: 2px solid $purp;
+			width: 160px;
+		}
+		a:hover{
+			color: $purp;
+			background: #FFF;
+			border: 2px solid $purp;
+		}
+
+	}
+}
+
+.bottom-box {
+	float: left;
+	height: 200px;
+	.ribbon-wrap {
+		margin: 20px 20px 100px 20px;
+		padding: 35px;
+		h2 {
+			font-size: 1.8em;
+			color: $grey;
+			display: inline;
+			position: relative;
+			margin-left: -55px;
+		}
+		h5 {
+			font-size: 1.5em;
+			color: $light;
+			display: inline;
+			position: relative;
+			left: 55px;
+		}
+	}
+}
+
+.ribbon-wrap {
+  margin: 0 20px;
+  position: relative;
+  border: 3px solid $light;
+  border-radius: 6px;
+	  .ribbon {
+		  position: absolute;
+		  left: 0px; top: 0px;
+		  overflow: hidden;
+		  width: 75px; height: 75px;
+		  span {
+		  	  font-size: 0.8em;
+			  color: #FFF;
+			  letter-spacing: 0.5em;
+			  line-height: 20px;
+			  transform: rotate(-45deg);
+			  width: 100px;
+			  display: block;
+			  background: $purp;
+			  position: absolute;
+			  top: 19px; left: -21px;
+	  	}	
+	}
+}
